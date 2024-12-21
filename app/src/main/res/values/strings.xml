@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">IoT_Project_Test</string>
+    <string name="test_string" >This is just a test string.</string>
+    <string name="button_label">Button Label</string>
+    <string name="lock_label">LOCK</string>
+    <string name="unlock_label">UNLOCK</string>
+</resources>
