@@ -50,44 +50,6 @@
 
 
 
-    <!---
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/app_name"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        />
-    -->
-<!--
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="80dp"
-        android:orientation="vertical"
-        app:layout_constraintBottom_toBottomOf="parent"
-        >
-        <Button
-            android:layout_width="match_parent"
-            android:layout_height="40dp" />
-
-        <Button
-            android:layout_width="match_parent"
-            android:layout_height="40dp" />
-
-    </LinearLayout>
-
--->
-
     <LinearLayout
         android:id="@+id/linearLayout"
         android:layout_width="match_parent"
@@ -116,32 +78,6 @@
                 android:layout_centerHorizontal="true"
                 android:src="@drawable/home_96dp" />
 
-            <!--
-            <ImageView
-                android:layout_width="200dp"
-                android:layout_height="200dp"
-                android:layout_centerHorizontal="true"
-                android:layout_marginBottom="20dp"
-                android:background="@drawable/house_outline" />
-
-            <Button
-                android:layout_width="200dp"
-                android:layout_height="200dp"
-                android:layout_centerHorizontal="true"
-                android:layout_marginBottom="20dp"
-                android:background="@drawable/house_outline"
-                android:clickable="true"
-                android:visibility="invisible" />
--->
-<!--
-            <ImageButton
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:src="@drawable/ic_settings_icon"
-                app:layout_editor_absoluteX="360dp"
-
-                tools:ignore="MissingConstraints" />
--->
         </RelativeLayout>
 
         <Button
@@ -163,18 +99,6 @@
         android:orientation="horizontal"
         android:weightSum="2"
         tools:layout_editor_absoluteX="5dp">
-
-        <!-- Disappeared for some reason -->
-        <!--
-        <Button
-            style="@style/Widget.Material3.Button.Icon"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:backgroundTint="#006600"
-            android:text="@string/unlock_label"
-            app:icon="@drawable/lock_open_24dp" />
--->
 
         <TextView
             android:layout_width="0dp"
@@ -198,126 +122,7 @@
 
 
     </LinearLayout>
-<!--
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="horizontal"
-        android:gravity="center">
 
-        <ImageView
-            android:layout_width="240dp"
-            android:layout_height="250dp"
-            android:src="@drawable/home_96dp"
-            tools:layout_editor_absoluteX="307dp"
-            tools:layout_editor_absoluteY="503dp"
-            android:background="@drawable/house_outline" />
-
-    </LinearLayout>
-    -->
-
-    <!--
-    Maybe the solution to the circle around the house
-    <FrameLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        >
-
-        <ImageView
-            android:layout_width="240dp"
-            android:layout_height="250dp"
-            android:background="@drawable/house_outline"
-            />
-
-        <ImageView
-            android:layout_width="240dp"
-            android:layout_height="250dp"
-            android:src="@drawable/home_96dp"
-            />
-
-    </FrameLayout>
-
-    -->
-
-<!--
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/test_string"
-        app:layout_constraintBottom_toBottomOf="parent"
-        />
--->
-
-    <!--
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:gravity="center"
-        android:orientation="vertical"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/linearLayout">
-
-        <Button
-            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/unlock_label"
-            android:textColor="#006600"
-            app:icon="@drawable/lock_open_24dp"
-            app:iconTint="#006600" />
-
-        <Button
-            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/lock_label"
-            android:textColor="#8A1919"
-            app:icon="@drawable/lock_24dp"
-            app:iconTint="#8A1919" />
-    </LinearLayout>
-    -->
-
-<!--
-    <Button
-        style="@style/Widget.Material3.Button.Icon"
-        app:icon="@drawable/lock_open_24dp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/unlock_label"
-        tools:layout_editor_absoluteX="7dp"
-        tools:layout_editor_absoluteY="295dp" />
-
-    <Button
-        style="@style/Widget.Material3.Button.Icon"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/lock_label"
-        app:icon="@drawable/lock_24dp"
-        tools:layout_editor_absoluteX="7dp"
-        tools:layout_editor_absoluteY="343dp" />
--->
-
-
-    <!--
-    <ImageButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/ic_settings_icon"
-        tools:layout_editor_absoluteX="125dp"
-        tools:layout_editor_absoluteY="534dp" />
--->
-
-
-<!---
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/home_96dp"
-        tools:layout_editor_absoluteX="307dp"
-        tools:layout_editor_absoluteY="503dp"
-        android:background="@drawable/house_outline" />
--->
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
