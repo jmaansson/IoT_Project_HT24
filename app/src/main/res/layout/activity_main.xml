@@ -75,8 +75,17 @@
             <ImageView
                 android:layout_width="180dp"
                 android:layout_height="180dp"
+                android:layout_marginTop="40dp"
                 android:layout_centerHorizontal="true"
                 android:src="@drawable/home_96dp" />
+
+            <ImageView
+                android:id="@+id/shield"
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/shield_144dp"
+                android:background="@drawable/shield_144dp"/>
 
         </RelativeLayout>
 
