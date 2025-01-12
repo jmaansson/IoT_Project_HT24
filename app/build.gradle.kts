@@ -32,7 +32,6 @@ android {
 }
 
 dependencies {
-
     implementation(libs.appcompat)
     implementation(libs.material)
     implementation(libs.activity)
@@ -42,19 +41,10 @@ dependencies {
     androidTestImplementation(libs.espresso.core)
 
     // SSH
-    implementation(files("libs/SSH library.jar"))
     implementation(files("libs/jsch-0.1.55.jar"))
-    // implementation(files("libs\\jsch-0.1.55.jar"))
-
-    // MQTT
-    //implementation("org.eclipse.paho:org.eclipse.paho.client.mqttv3:1.1.0")
-    //implementation("org.eclipse.paho:org.eclipse.paho.android.service:1.1.1")
-    //implementation("androidx.legacy:legacy-support-v4:1.0.0")
 
     // Newer versions of Paho
     implementation("org.eclipse.paho:org.eclipse.paho.client.mqttv3:1.2.5")
     implementation("org.eclipse.paho:org.eclipse.paho.android.service:1.1.1")
     implementation("androidx.localbroadcastmanager:localbroadcastmanager:1.1.0")
-
-    // implementation("androidx.legacy:legacy-support-v4:1.0.0")
 }

@@ -41,9 +41,6 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 
-import ch.ethz.ssh2.Connection;
-import ch.ethz.ssh2.StreamGobbler;
-
 
 public class MainActivity extends AppCompatActivity {
 
