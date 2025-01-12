@@ -24,20 +24,10 @@
             android:textColor="#FFFFFF"
             android:textSize="24dp"/>
 
-
     </LinearLayout>
 
-        <ImageButton
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="0dp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintBaseline_toTopOf="parent"
-            android:contentDescription="Settings"
-            android:backgroundTint="#FFFFFF"
-            android:src="@drawable/ic_settings_icon" />
-
     <TextView
+        android:id="@+id/txv_motion"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@drawable/txv_outline"
@@ -57,15 +47,6 @@
         android:gravity="bottom"
         android:orientation="horizontal"
         android:weightSum="2">
-
-        <Button
-            style="@style/Widget.Material3.Button.Icon"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:backgroundTint="#8A1919"
-            android:text="@string/unlock_label"
-            app:icon="@drawable/lock_open_24dp" />
 
         <RelativeLayout
             android:layout_width="match_parent"
@@ -89,14 +70,6 @@
 
         </RelativeLayout>
 
-        <Button
-            style="@style/Widget.Material3.Button.Icon"
-            android:layout_width="1dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="@string/lock_label"
-            app:icon="@drawable/lock_open_24dp" />
-
     </LinearLayout>
 
     <LinearLayout
@@ -110,28 +83,29 @@
         tools:layout_editor_absoluteX="5dp">
 
         <TextView
+            android:id="@+id/door_state"
             android:layout_width="0dp"
-            android:layout_height="wrap_content"
+            android:layout_height="55dp"
             android:layout_marginEnd="5dp"
             android:layout_weight="1"
             android:background="@drawable/txv_outline"
             android:gravity="center"
+            android:textSize="20dp"
             android:text="Door state" />
 
         <Button
             android:id="@+id/lock_button"
             style="@style/Widget.Material3.Button.Icon"
             android:layout_width="1dp"
-            android:layout_height="wrap_content"
+            android:layout_height="65dp"
             android:layout_weight="1"
             android:backgroundTint="#8A1919"
             android:drawableLeft="@drawable/lock_24dp"
             android:drawableTint="#FFFFFF"
+            android:onClick="handleRemoteSwitch"
             android:text="@string/lock_label" />
 
 
     </LinearLayout>
-
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>
